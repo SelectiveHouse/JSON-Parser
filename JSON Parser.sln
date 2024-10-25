@@ -5,9 +5,15 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON Parser", "JSON Parser\JSON Parser.csproj", "{7FE13734-F7C9-44AB-B088-E8577AE7049A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{FC052829-E2E5-449A-933B-B0C1E7C3EC33}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A344A0B-1640-4963-A7E3-AF742EDA86A8}"
 	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
+		Items\README.md = Items\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSON Test Docs", "JSON Test Docs", "{270D90DE-AE26-4A79-922D-A0BE067A43BD}"
+	ProjectSection(SolutionItems) = preProject
+		test_invalid.json = test_invalid.json
+		Items\test_valid.json = Items\test_valid.json
 	EndProjectSection
 EndProject
 Global
@@ -23,6 +29,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{270D90DE-AE26-4A79-922D-A0BE067A43BD} = {9A344A0B-1640-4963-A7E3-AF742EDA86A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4830309-C7BC-437E-BB27-39625F2B9A75}

@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var fileName = File_Loader.OpenFile.Open();
+            Console.WriteLine(fileName);
         }
     }
 }
